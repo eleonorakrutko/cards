@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.page{
+    min-height: 100vh;
+    
+}
+.wrapper{
+    background-color: #ccc;
+    max-width: 1600px;
+    padding: 5px;
+}
+/* Способ инлайн блок */
+.page1{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.method {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.page1 .image, .page1 .info{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.page1 .info{
+    text-align: center;
+    padding: 20px;
+}
+.page h2, .page .info .button{
+    margin: 20px;
+}
+.button a{
+    text-decoration: none;
+    background-color: rgb(79, 155, 46);
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button a:hover{
+    background-color: #ccc;
+}
+ /* Способ таблицы */
+ .page2{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+.method {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.page2 .info{
+    padding: 20px;
+}
+.page2 h2{
+    margin: 20px;
+}
+
+/* Способ флоат */
+.page3{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+.page3 .image{
+    float: left;
+}
+.page3 .info{
+   padding: 30px 0 ;
+}
+
+
